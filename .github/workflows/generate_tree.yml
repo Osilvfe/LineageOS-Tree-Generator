@@ -14,19 +14,19 @@ on:
       DEVICE_BRAND:
         description: 'Device manufacturer'
         required: true
-        default: ''
+        default: 'oppo'
       CODENAME:
         description: 'Device codename'
         required: true
-        default: ''
+        default: 'PECM30'
       GIT_NAME:
         description: 'GitHub account user name'
         required: true
-        default: ''
+        default: 'Osilvfe'
       GIT_EMAIL:
         description: 'GitHub account email adress'
         required: true
-        default: ''
+        default: '3072756864@qq.com'
 
 jobs:
   build:
